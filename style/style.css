@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.header-section {
+  background-image: url('../images/donation1.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.banner-item {
+  text-align: center;
+}
+.banner-title {
+  color: white;
+  font-size: 80px;
+}
+.banner-des {
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+  width: 900px;
+}
+.btn-primary {
+  background-color: #ff5959;
+  color: white;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.donate-count-header {
+  text-align: center;
+}
+.donate-count-title {
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.donate-count-des {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  width: 691px;
+  margin: 0 auto;
+}
+.money-total-collects {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.money-collect {
+  margin-left: 5px;
+  padding: 40px 90px;
+  background: #fafafa;
+  color: #707070;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.money-collect:hover {
+  color: #ff5959;
+  background: #ffeeee;
+}
+.money-last {
+  color: #b3b3b3;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+hr {
+  width: 765px;
+  margin: 0 auto;
+}
+.btn-class {
+  text-align: center;
+  margin-top: 30px;
+}
+.donate-plan-section {
+  margin-top: 130px;
+}
+.donate-plan-header {
+  text-align: center;
+}
+.donate-plan-title {
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+}
+.donate-plan-des {
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  width: 691px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.donate-item-1 {
+  background: #4f9da61a;
+  padding: 50px 30px;
+}
+.donate-item-2 {
+  background: #ff59591a;
+  padding: 50px 30px;
+}
+.donate-item-3 {
+  background: rgb(216, 220, 106);
+  padding: 50px 30px;
+}
+.item-name {
+  color: #121212;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+.item-des {
+  color: #707070;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.donate-items {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  padding: 150px 180px;
+}
+.section-width {
+  width: 1530;
+  margin: 0 auto;
+}
+.donate-img {
+  width: 456px;
+  height: 477px;
+}
+.container-1 {
+  display: flex;
+  gap: 85px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.container-2 {
+  display: flex;
+  gap: 85px;
+  justify-content: center;
+  align-items: center;
+}
+.text-title {
+  color: #121212;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 10px;
+  width: 492px;
+}
+.text-des {
+  color: #707070;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 482px;
+  margin-bottom: 30px;
+}
+.left-text,
+.right-text {
+  widows: auto;
+  height: 374px;
+}
+.new-width {
+  width: 300px;
+}
+.contact-section {
+  margin-bottom: 130px;
+}
+.contact-head {
+  text-align: center;
+  margin-top: 130px;
+}
+.contact-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.contact-des {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+}
+.contact-form {
+  width: 809px;
+  height: 200px;
+  margin: 0 auto;
+  background: #fff4d6;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-email {
+  width: 425px;
+  height: 45px;
+  padding: 3px 10px;
+  border: 0;
+  border-radius: 4px;
+}
+.contact-submit {
+  width: 157px;
+  height: 45px;
+  color: #ffffff;
+  background: #ff5959;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer-item {
+  text-align: center;
+  background: #0b0d17;
+  width: 100vw;
+  padding: 43px 30px 70px;
+}
+.footer-title {
+  color: #ff5959;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  margin-top: 43px;
+}
+.footer-des {
+  color: #d9dbe1;
+  font-weight: 400;
+  font-size: 14px;
+}
